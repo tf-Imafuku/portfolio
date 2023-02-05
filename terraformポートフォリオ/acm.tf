@@ -1,5 +1,5 @@
 #-------------------
-# 変更した
+# 変更する（No.2）
 #-------------------
 resource "aws_acm_certificate" "virginia_cert" {
   domain_name       = "*.${var.domain}"
