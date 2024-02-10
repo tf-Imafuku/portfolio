@@ -1,5 +1,5 @@
 #-----------------
-# ALB
+# Application Load Balancer 
 #-----------------
 resource "aws_lb" "terraform-alb" {
   name               = "${var.project}-${var.environment}-alb"
